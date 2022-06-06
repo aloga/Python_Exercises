@@ -1,0 +1,314 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled34.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOr/DyEkhgTqAEsBbk2iRyI",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/aloga/Python_Exercises/blob/main/Pass_Reminder\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tthY1xrRcgSV",
+        "outputId": "1048fdc6-ec98-4832-fda1-70d20101716b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Write the first name : genc\n",
+            "Hello, Genc! The password is : 111\n"
+          ]
+        }
+      ],
+      "source": [
+        "name=input(\"Write the first name : \")\n",
+        "\n",
+        "if name.lower() == \"genc\":\n",
+        "  print(\"Hello, Genc! The password is : 111\")\n",
+        "else:\n",
+        "  print(f\"Hello, {name}! See you later.\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Password = 'ahmetmert38'\n",
+        "Name = 'ecthelion'\n",
+        "A= (input('Give your name for password:'))\n",
+        "if  Name==A.lower():\n",
+        "  \n",
+        "  print(f'Hello Ecthelion Your Password is {Password} ')\n",
+        "else: \n",
+        "  print(f'Hello {A} Your Password İncorrect See you Later')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K2FCWtCxcha0",
+        "outputId": "3a5bddc4-1257-4ce5-d077-2101e243bc20"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Give your name for password:ecthelion\n",
+            "Hello Ecthelion Your Password is ahmetmert38 \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "user = \"Joseph\"\n",
+        "name = input(\"enter your name:\")\n",
+        "\n",
+        "if name == user:\n",
+        "    print(\"Hello, Joseph! The password is : W@12\")\n",
+        "else:\n",
+        "    print(\"Hello, Amina! See you later.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ifS10z44chfH",
+        "outputId": "63d2cd51-ccf8-4481-a877-70577925b92f"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your name:helen\n",
+            "Hello, Amina! See you later.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "recorded_name = 'Joseph'\n",
+        "password = 'W@12'\n",
+        "\n",
+        "user_name2 = input('enter user name : ')\n",
+        "if recorded_name == user_name2:\n",
+        "  print(f'Hello {user_name2}! The password is : {password}')\n",
+        "else:\n",
+        "  print(f'Hello {user_name2}! See you later.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xQgPwlyJchim",
+        "outputId": "80ca6d7a-9ff9-4dc4-fffb-d73d155f345d"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter user name : Joseph\n",
+            "Hello Joseph! The password is : W@12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"farukk\"\n",
+        "n = input(\"Please enter your name :\").lower()\n",
+        "if n == name :\n",
+        "    print(f\"Hello, {n.capitalize()}! The password is : W@12\")\n",
+        "else : \n",
+        "    print(f\"Hello, {n.capitalize()}! See you later.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mxnwBjoxchlX",
+        "outputId": "9d19b966-8944-44ea-9b69-96e112a4668f"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Please enter your name :farukk\n",
+            "Hello, Farukk! The password is : W@12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "sifre = \"12345qwert\"\n",
+        "kullanıcı_adi = \"Muhsin\".title()\n",
+        "sor = input(\"Lütfen şifrenize ulaşmak için kullanıcı adınızı giriniz.\").title()\n",
+        "if sor == kullanıcı_adi:\n",
+        "    print(f\"Hello, {sor} The password is : {sifre}\")\n",
+        "else:\n",
+        "    print(f\"Hello, {sor}! See you later.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xiNasYDuepy7",
+        "outputId": "71d7dc52-d189-4ad2-d9cb-07446111221e"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Lütfen şifrenize ulaşmak için kullanıcı adınızı giriniz.muhsin\n",
+            "Hello, Muhsin The password is : 12345qwert\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input(\"Enter your name : \")\n",
+        "if name.title().strip() == \"Joseph\" :\n",
+        "  print(\"Hello, {}! The password is : W@12\".format(name.title().strip()))\n",
+        "else:\n",
+        "  print(\"Hello, {}! See you later\".format(name.title().strip()))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sJkpWzQtep2f",
+        "outputId": "51c01f90-d1fa-4a9e-8d71-6e76c7d42a67"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name : Joseph\n",
+            "Hello, Joseph! The password is : W@12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ad = input(\"lütfen adınızı giriniz: \")\n",
+        "\n",
+        "id = \"Halil\"\n",
+        "\n",
+        "if ad == id :\n",
+        "  print(\"Merhaba {}, şifreniz:007\".format(id))\n",
+        "else :\n",
+        "  print(\"Merhaba {}, sonra tekrar deneyin, biraz dinlenmeye ihtiyacınız var!\".format(ad))\n",
+        "  "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z4lYWqqNep4x",
+        "outputId": "ec9d0faf-de28-4f2b-807a-8aafc64eb829"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "lütfen adınızı giriniz: ada\n",
+            "Merhaba ada, sonra tekrar deneyin, biraz dinlenmeye ihtiyacınız var!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "password = \"banana\"\n",
+        "name = \"Fatih\"\n",
+        "\n",
+        "name = input(\"Lütfen adinizi giriniz :\").title()\n",
+        "\n",
+        "if name == \"Fatih\" :\n",
+        "  print(f\"Hello, {name}! Your password is : {password} \")\n",
+        "else:\n",
+        "  print(f\"Hello, {name}! See you later \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wCkPAm2PgoBL",
+        "outputId": "4433a0b8-5004-4be4-f19c-fa622c2451af"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Lütfen adinizi giriniz :Fatih\n",
+            "Hello, Fatih! Your password is : banana \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "lE7isKfPgo2M"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
